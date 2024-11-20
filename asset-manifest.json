@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/nareshAiNexus/SkRahulMahal.git/static/css/main.44099364.css",
-    "main.js": "/nareshAiNexus/SkRahulMahal.git/static/js/main.9eda769a.js",
-    "index.html": "/nareshAiNexus/SkRahulMahal.git/index.html",
-    "main.44099364.css.map": "/nareshAiNexus/SkRahulMahal.git/static/css/main.44099364.css.map",
-    "main.9eda769a.js.map": "/nareshAiNexus/SkRahulMahal.git/static/js/main.9eda769a.js.map"
+    "main.css": "/nareshAiNexus/SkRahulMahal/static/css/main.44099364.css",
+    "main.js": "/nareshAiNexus/SkRahulMahal/static/js/main.9eda769a.js",
+    "index.html": "/nareshAiNexus/SkRahulMahal/index.html",
+    "main.44099364.css.map": "/nareshAiNexus/SkRahulMahal/static/css/main.44099364.css.map",
+    "main.9eda769a.js.map": "/nareshAiNexus/SkRahulMahal/static/js/main.9eda769a.js.map"
   },
   "entrypoints": [
     "static/css/main.44099364.css",
