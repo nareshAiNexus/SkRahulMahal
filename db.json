@@ -1,0 +1,16 @@
+{
+	"bookedSlots": {
+		"2024-11-25": {
+			"morning": true,
+			"evening": false
+		},
+		"2024-11-21": {
+			"morning": false,
+			"evening": true
+		},
+		"2024-11-30": {
+			"morning": true,
+			"evening": true
+		}
+	}
+}
