@@ -144,7 +144,7 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Acknowledgments
 
-- Special thanks to [Naresh](https://github.com/nareshAiNexus) for creating and maintaining this project.
+- Special thanks to [Naresh](https://github.com/nareshAiNexus) and JaganRaj for creating and maintaining this project.
 
 ## Contact
 
