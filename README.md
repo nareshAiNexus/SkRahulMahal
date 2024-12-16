@@ -35,7 +35,7 @@ Follow these steps to run the SkragulMahal project on your local machine.
 3. Navigate to the project directory:
 
    ```bash
-   cd skragulmahal
+   cd skRagulMahal
    ```
 
 ### Install Dependencies
