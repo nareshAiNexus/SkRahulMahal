@@ -106,10 +106,12 @@ To deploy your project:
 4. Fill in your contact details and submit the booking form.
 5. The admin will receive a notification of your booking.
 
+`kindly do not book unnecessarily `
+
 ## Technologies Used
 
-- **Frontend**: React, HTML, CSS, Bootstrap
-- **Backend**: Node.js (if applicable)
+- **Frontend**: React, HTML, CSS, typescript, tailwind.
+- **Backend**: firebase
 - **Database**: Firebase (or any free-source database configured)
 - **Version Control**: Git
 
