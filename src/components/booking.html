@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+            color: #444;
+        }
+        body {
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #34a8f0;
+        }
+        .container {
+            background-color: white;
+            border-radius: 5px;
+            padding: 30px;
+            width: 450px;
+        }
+        .container p {
+            margin: 20px 0;
+        }
+        form div {
+            display: flex;
+            justify-content: space-between;
+            gap: 5px;
+        }
+        span input {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0 20px 0;
+            background-color: #eee;
+            border: none;
+            outline: none;
+        }
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            background-color: #eee;
+            border: none;
+            outline: none;
+        }
+        button {
+            background-color: #e53653;
+            padding: 10px 30px;
+            border-radius: 5px;
+            color: white;
+            border: none;
+            margin-top: 20px;
+        }
+        button:hover {
+            background-color: #a20d26;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Contact Us</h2>
+        <p>Leave your message and we will get back to you shortly</p>
+        <form action="javascript:void(0);">
+            <div>
+                <span>
+                    <label for="name">Name</label><br/>
+                    <input id="name" type="text" placeholder="Full Name">
+                </span>
+                <span>
+                    <label for="email">Email</label><br/>
+                    <input id="email" type="email" placeholder="Email">
+                </span>
+            </div>
+            <label for="message">Your Message</label><br/>
+            <textarea id="message" rows="10" placeholder="Your Message"></textarea>
+            <button onclick="sendToWhatsapp()">Submit</button>
+        </form>
+    </div>
+    <script>
+        function sendToWhatsapp() {
+            let number = "9514320988"; // Your WhatsApp number
+            let name = document.getElementById('name').value.trim();
+            let email = document.getElementById('email').value.trim();
+            let message = document.getElementById('message').value.trim();
+
+            // Validate inputs
+            if (!name || !email || !message) {
+                alert("Please fill out all fields before submitting.");
+                return;
+            }
+
+            // Create WhatsApp URL
+            let url =
+                "https://wa.me/" +
+                number +
+                "?text=" +
+                encodeURIComponent(`Name: ${name}\nEmail: ${email}\nMessage: ${message}`);
+
+            // Open the WhatsApp URL in a new tab
+            window.open(url, "_blank");
+        }
+    </script>
+</body>
+</html>
