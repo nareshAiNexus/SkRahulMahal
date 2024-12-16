@@ -29,7 +29,7 @@ Follow these steps to run the SkragulMahal project on your local machine.
 2. Run the following command to clone the project repository:
 
    ```bash
-   git clone https://github.com/your-username/skragulmahal.git
+   git clone https://github.com/nareshAiNexus/skragulmahal.git
    ```
 
 3. Navigate to the project directory:
