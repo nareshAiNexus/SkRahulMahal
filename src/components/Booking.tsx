@@ -134,7 +134,7 @@ const BookingForm = () => {
           selectedServices.join(", ")
         )
         }%0APhone: ${encodeURIComponent(formData.phone)}%0AEvent Type: ${encodeURIComponent(formData.eventType)}%0AAddress: ${encodeURIComponent(formData.address)} `;
-      const number = "9384793830";
+      const number = ENTER-YOURWHATSAPP-NUMBER";
       const url = `https://wa.me/${number}?text=${message}`;
 
       window.open(url, "_blank").focus();
